@@ -11,6 +11,7 @@
 >/products/:{products_name}
 - 'POST': Receive the json send by request and agreaga the product. Json.
 >Example POST request json:
+>
 		`{
 		"name": ExampleName ,
 		 "price":  ExamplePrice ,
@@ -20,6 +21,7 @@
 - 'PUT': A json is sent with the update data, and the object to be updated is referenced using a path variable called "produc_name":
 > Route:  "Products/:{product_name}"
 ###### 		Example Data Updrade:
+
 		`{
 		"name": ExampleNameUpgrade ,
 		 "price":  ExamplePriceUpgrade,
