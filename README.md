@@ -3,7 +3,14 @@
 #####  **clarification: "This API is a first approach to the framework, observing its main features, it does not possess persistence and is not used in any type of software product "**
 
 ------------
-
+#### Installation
+1. Git clone repository
+2. Create virtual environment
+	> python virtualenv env 
+4. Activate virtual environment
+5. Install dependencies
+   	> pip install -r requirements.txt
+------------
 
 #### Methods & Routes
 /Products:
